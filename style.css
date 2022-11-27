@@ -1,0 +1,38 @@
+body{
+    background-color: #A5F1E9;
+}
+
+.container{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+}
+
+#display{
+    width: 400px;
+    height: 100px;
+    background-color: #F1F1F1;
+}
+
+.buttonArea{
+    display: grid;
+    border: 1px solid black;
+    background-color: #DBA39A;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    border: 1px solid black;
+    height: 50px;
+    color: #FB2576;
+    background-color: #DBA39A;
+}
+
+#equals{
+    background-color: #68B984;
+}
+
+#equals:hover{
+    background-color: #9C254D;
+    color: black;
+    transition: 2s ease-in-out;
+}
